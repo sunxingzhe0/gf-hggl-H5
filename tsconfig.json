@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/theme": ["./src/styles/theme.scss"],
+      "@/components/*": ["./src/components/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/static/*": ["./src/static/*"],
+      "@/api/*": ["./src/api/*"],
+      "@/storage/*": ["./src/storage/*"]
+    }
+  }
+}

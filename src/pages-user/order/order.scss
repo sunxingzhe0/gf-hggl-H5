@@ -1,0 +1,79 @@
+@import '@/theme';
+.header-bg {
+  padding: 160px 0 20px;
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-image: url('../../static/background/bg1.png');
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.state {
+  font-size: 34px;
+
+  &:before {
+    position: relative;
+    top: 4rpx;
+    font-size: 46px;
+  }
+}
+.description {
+  font-size: 26px;
+}
+.app-card {
+  font-size: 30px;
+
+  + .app-card {
+    margin-top: 10px;
+  }
+}
+.info-card {
+  padding: 0 0 0 30px;
+}
+.app-cell + .app-cell {
+  border-top: 1px solid #ededed;
+}
+.label {
+  flex-shrink: 0;
+  width: 180px;
+  font-size: 30px;
+  color: #666;
+}
+.value {
+  color: #1a1a1a;
+}
+.phone,
+.address {
+  font-size: 26px;
+  color: #666;
+}
+.copy {
+  color: $color-primary;
+}
+.date-info,
+.money-info {
+  line-height: 70px;
+}
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding: 20px 0;
+  background-color: #fff;
+}
+.at-button {
+  margin: 0 20px;
+  width: 160px;
+  height: 72px;
+  line-height: 70px;
+  border-color: transparent;
+  font-size: 34px;
+}
+.grey {
+  background-color: #ededed;
+  color: #333333;
+}
+.fee {
+  font-size: 34px;
+  color: #f74a4a;
+}

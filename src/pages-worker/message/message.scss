@@ -1,0 +1,44 @@
+@import '@/theme';
+.app-card {
+  margin-top: 10px;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-color: rgba(10, 178, 193, 0.2);
+}
+.left-icon {
+  width: 50px;
+}
+.title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #1a1a1a;
+}
+.date {
+  font-size: 24px;
+  color: #999;
+}
+.description {
+  font-size: 24px;
+  color: #333;
+}
+.btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  line-height: 88px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #fff;
+  color: $color-primary;
+}
+.right {
+  margin-left: 30px;
+}

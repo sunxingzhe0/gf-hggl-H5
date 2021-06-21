@@ -1,0 +1,51 @@
+@import url('../../styles/iconfont.css');
+.page {
+  width: 100vw;
+  height: 126rpx;
+}
+.fringe-screen {
+  padding-top: 46px;
+}
+.navigation {
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(2, 33.3%);
+  grid-template-rows: 100%;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 88rpx;
+  padding-top: 40rpx;
+  background-color: #fff;
+}
+.transparent {
+  background-color: transparent;
+  color: #fff;
+}
+.fringe {
+  padding-top: 84rpx;
+}
+.nav-left {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 100%;
+  line-height: 40rpx;
+  margin-top: 8rpx;
+  margin-left: 10rpx;
+  padding: 14rpx 0;
+  border: 1rpx solid #eaeaea;
+  border-radius: 32rpx;
+  text-align: center;
+}
+.iconfont {
+  font-size: 40rpx;
+}
+.iconfont + .iconfont {
+  border-left: 1rpx solid #eaeaea;
+}
+.page-title {
+  line-height: 86rpx;
+  text-align: center;
+  font-size: 28rpx;
+}

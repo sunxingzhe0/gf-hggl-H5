@@ -1,0 +1,23 @@
+@import '@/theme';
+
+.object {
+  margin-top: 10px;
+
+  .tag {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  checkbox {
+    margin-left: -40px;
+  }
+}
+.btn-add {
+  margin: 30px auto;
+  width: 80vw;
+  line-height: 86px;
+  border-radius: 44px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #fff;
+  color: $color-primary;
+}

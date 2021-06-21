@@ -1,0 +1,76 @@
+@import '@/theme';
+.state {
+  line-height: 100px;
+  height: 110rpx;
+  background-image: url('../../static/background/workerOrderBg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.card {
+  margin-top: -20px;
+  padding-top: 1px;
+  padding-left: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.title {
+  line-height: 32px;
+  margin: 20px 0;
+  padding-left: 10px;
+  border-left: 4px solid $color-primary;
+  font-size: 30px;
+  color: #333;
+}
+.content {
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: #1a1a1a;
+}
+.border-bottom {
+  border-bottom: 1px solid #ededed;
+}
+.name {
+  font-size: 34px;
+}
+.info {
+  font-size: 24px;
+  color: #666;
+}
+.list-item {
+  margin: 10px 0;
+  padding-left: 0;
+  overflow: hidden;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  line-height: 60px;
+  font-size: 26px;
+  background-color: #e6f7f9;
+  color: $color-primary;
+}
+.right {
+  flex: auto;
+  padding-top: 20px;
+  padding: 20px 0 20px 30px;
+  font-size: 24px;
+  background-color: #fff;
+  color: #999;
+
+  .description {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #1a1a1a;
+  }
+}
+.order-title {
+  margin: 30px;
+  font-size: 30px;
+  color: #1a1a1a;
+}

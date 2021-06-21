@@ -1,0 +1,60 @@
+@import '@/theme';
+
+.header-bg {
+  width: 100%;
+  padding: 160px 0 80px;
+  background-repeat: no-repeat;
+  background-image: url('../../static/background/userBackground.png');
+  background-size: cover;
+  color: #fff;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #3bc1cd;
+}
+.header {
+  width: 100%;
+}
+.tabs {
+  margin-top: -30rpx;
+  font-size: 26px;
+  color: #333;
+}
+.tab-img {
+  width: 84px;
+}
+.filter-wrapper {
+  padding: 10px 20px 0;
+  font-size: 26px;
+}
+
+.name {
+  margin-right: 20px;
+  font-size: 34px;
+  font-weight: 500;
+  color: #333;
+}
+.tag {
+  padding: 4px 10px;
+  background: rgba(10, 178, 193, 0.1);
+  font-size: 24px;
+  color: $color-primary;
+
+  &.grey {
+    background-color: rgba(102, 102, 102, 0.1);
+    color: #666;
+  }
+}
+.score {
+  margin: 18px 0 26px;
+}
+.date {
+  color: #999;
+}

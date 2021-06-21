@@ -1,0 +1,35 @@
+@import '@/theme';
+
+.state {
+  color: $color-primary;
+}
+.appointment {
+  color: #333;
+
+  .input-box {
+    width: 60%;
+  }
+  .right {
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+  }
+  .list-item {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #666;
+  }
+  .order-id {
+    font-size: 26px;
+    color: #333;
+  }
+  .patient {
+    margin-top: 20px;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  .worker {
+    margin-top: 20px;
+    line-height: 50px;
+  }
+}

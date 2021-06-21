@@ -1,0 +1,128 @@
+@import '@/theme';
+.date-container {
+  padding-bottom: 1px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #fff;
+}
+.current-date {
+  padding: 0 30px;
+}
+.icon-shuaxin {
+  font-size: 40px;
+}
+.app-card {
+  font-size: 26px;
+  color: #666;
+}
+.welcome {
+  width: 83vw;
+  line-height: 50px;
+  margin: 30px auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.tabs {
+  margin-top: 10px;
+  font-size: 26px;
+  color: #333;
+}
+.tab-img {
+  width: 84px;
+}
+.title-active {
+  color: $color-primary;
+}
+.card {
+  margin-top: 10px;
+  padding-left: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.app-cell {
+  padding-right: 30px;
+  + .app-cell {
+    border-top: 1px solid #ededed;
+  }
+}
+.label {
+  color: #666;
+}
+.btn-wrapper {
+  margin: 20px auto 0;
+  width: 90vw;
+  line-height: 86px;
+  border-radius: 44px;
+  font-size: 30px;
+  background-color: #fff;
+}
+.button {
+  width: 50%;
+  text-align: center;
+
+  + .button {
+    border-left: 1px solid #ededed;
+  }
+}
+.icon-rili {
+  padding: 20px;
+
+  &:before {
+    margin-right: 12px;
+    vertical-align: bottom;
+    font-size: 40px;
+  }
+}
+.list-item {
+  margin: 10px 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  line-height: 60px;
+  font-size: 26px;
+  background-color: #e6e6e6;
+  color: #999;
+}
+.right {
+  flex: auto;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 24px;
+  background-color: #fff;
+  color: #999;
+
+  .title {
+    font-size: 30px;
+  }
+  .time,
+  .info {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .info {
+    padding: 20px 20px 20px 0;
+    border-top: 1px solid #ededed;
+  }
+  .tag {
+    background-color: #ededed;
+  }
+}
+.userinfo {
+  color: #666;
+}
+.name {
+  margin-right: 16px;
+  font-size: 34px;
+  color: #1a1a1a;
+}
+progress {
+  flex: auto;
+  margin: 12px 10px;
+  width: 400px;
+}

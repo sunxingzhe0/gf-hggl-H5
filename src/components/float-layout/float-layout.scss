@@ -1,0 +1,41 @@
+@import '@/theme';
+
+.at-float-layout__container {
+  max-height: 90vh;
+  height: 80vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.at-float-layout {
+  .layout-body__content {
+    max-height: 100vh;
+  }
+}
+.modal-header {
+  position: relative;
+  padding: 16px 0 32px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.modal-title {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+}
+.icon-yiguanbi {
+  position: absolute;
+  right: 10px;
+  top: 16rpx;
+  color: #e6e6e6;
+  font-size: 44px;
+}
+.btn-confirm {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 98px;
+  text-align: center;
+  font-size: 30px;
+  background-color: $color-primary;
+  color: #fff;
+}

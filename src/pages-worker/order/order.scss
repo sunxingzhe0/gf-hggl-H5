@@ -1,0 +1,73 @@
+@import '@/theme';
+page {
+  padding-bottom: 120px;
+}
+.status-wrapper {
+  line-height: 100px;
+  height: 120rpx;
+  align-items: unset;
+  padding: 0 30px;
+  background-image: url('../../static/background/workerOrderBg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.card {
+  margin-top: -20rpx;
+  padding: 1px 0 30px 30px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.app-card {
+  margin-top: 10px;
+  line-height: 44px;
+  font-size: 26px;
+}
+.order-info {
+  padding: 20px 30px;
+  line-height: 80px;
+}
+.title {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  line-height: 30px;
+  border-left: 4px solid $color-primary;
+}
+.user-info {
+  line-height: 50px;
+  font-size: 24px;
+  color: #666;
+}
+.user-name {
+  font-size: 34px;
+  color: #1a1a1a;
+}
+.user-info,
+.work {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+.label {
+  width: 200px;
+  font-size: 30px;
+  color: #666;
+}
+.value {
+  font-size: 30px;
+  color: #1a1a1a;
+}
+.border-top {
+  border-top: 1px solid #ededed;
+}
+.btn-submit {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: 88px;
+  text-align: center;
+  font-size: 30px;
+  background-color: $color-primary;
+  color: #fff;
+}

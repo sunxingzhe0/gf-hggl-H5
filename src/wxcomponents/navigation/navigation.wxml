@@ -1,0 +1,17 @@
+<view class="{{[transparent ? '' : 'page', fringe ? 'fringe-screen' : '']}}">
+	<view class="{{['navigation', fringe ? 'fringe' : '', transparent ? 'transparent' : '']}}">
+		<view>
+			<view class="nav-left">
+				<text class="{{['iconfont', 'icon-shouye-weixuanzhong', transparent ? 'transparent' : '']}}" bindtap="_home">
+				</text>
+				<text class="{{['iconfont', 'icon-wode-weixuanzhong', transparent ? 'transparent' : '']}}" bindtap="_me">
+				</text>
+				<text class="{{['iconfont', 'icon-xiaoxi', transparent ? 'transparent' : '']}}" bindtap="_message">
+				</text>
+			</view>
+		</view>
+		<view class="page-title">
+			{{title}}
+		</view>
+	</view>
+</view>

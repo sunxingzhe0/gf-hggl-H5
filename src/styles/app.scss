@@ -1,0 +1,34 @@
+@import './theme.scss';
+page {
+  background-color: #ededed;
+}
+.app-card {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.app-cell {
+  padding: 32px 0;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+checkbox,
+radio {
+  transform: scale(0.7);
+}
+.icon-wuxing:before {
+  color: #ffa200;
+}
+.color-primary {
+  color: $color-primary;
+}
+.color-orange {
+  color: #ffa200;
+}
+.color-red {
+  color: #f74a4a;
+}

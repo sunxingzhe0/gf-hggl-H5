@@ -1,0 +1,22 @@
+@import '@/theme';
+
+.list-item {
+  margin-top: 10px;
+  font-size: 26px;
+  color: #666;
+
+  .name {
+    margin-right: 20px;
+    font-size: 34px;
+    color: #333;
+  }
+  .tag {
+    padding: 4px 10px;
+    background: rgba(10, 178, 193, 0.1);
+    font-size: 24px;
+    color: $color-primary;
+  }
+  .score {
+    margin: 18px 0 26px;
+  }
+}
